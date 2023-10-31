@@ -7,13 +7,13 @@ fun main() {
 // 기본적으로 상속 금지이므로 open 키워드 작성
 open class A{
     open fun shout(){
-        println("A 소리침")
+        println("A 생성")
     }
 }
 
 class B: A(){
     override fun shout(){
-        println("B 소리침")
+        println("B 생성")
     }
 }
 
