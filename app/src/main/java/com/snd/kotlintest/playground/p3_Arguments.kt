@@ -34,3 +34,4 @@ fun sum(vararg nums: Int){
 
 /* 첫 번째 매개변수 this, 두 번째 매개변수 x */
 infix fun Int.multiply(x: Int): Int = this * x
+

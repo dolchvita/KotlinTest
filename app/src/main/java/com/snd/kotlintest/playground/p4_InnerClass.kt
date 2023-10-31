@@ -28,7 +28,6 @@ fun main() {
 class Outer{
     var text = "Outer Class"	// 가변 변수
 
-
     class Nested{
         fun introduce(){
             println("Nested Class")
