@@ -5,6 +5,7 @@ fun main() {
     // 자료형 뒤에 ?를 붙이면 null이 허용되는 변수로 선언할 수 있다!
     val nulString: String? = null
 
+
     var a = Product("sample", 1000)
     var b = Product("sample", 1000)
     var c = a
