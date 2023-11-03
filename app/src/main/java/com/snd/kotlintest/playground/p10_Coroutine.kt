@@ -3,7 +3,6 @@ package com.snd.kotlintest.playground
 import kotlinx.coroutines.*
 // 라이브러리 임포트
 
-
 fun main() {
 
     /* 코루틴은 메인스레드를 잠시 제어하고 루틴의 대기를 위한 타이밍을 조절해야 함! */

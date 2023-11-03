@@ -6,4 +6,12 @@
     </style>
 
     <style name="Theme.KotlinTest" parent="Base.Theme.KotlinTest" />
+
+    <!-- 앱 맨 상단 박스 -->
+    <style name="headerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="elevation">10dp</item>
+    </style>
+
 </resources>
