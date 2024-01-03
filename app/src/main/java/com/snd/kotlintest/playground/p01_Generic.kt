@@ -2,7 +2,12 @@ package com.snd.kotlintest.playground
 
 fun main() {
     UsingGeneric(B()).doShouting()
+
+
+    var intArr = arrayOfNulls<Int>(5)
 }
+
+
 
 // 기본적으로 상속 금지이므로 open 키워드 작성
 open class A{

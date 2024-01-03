@@ -30,6 +30,7 @@ private val networkCallback: ConnectivityManager.NetworkCallback = object : Conn
  * 1. 함수형 언어
  * 변수 호출시 적용할 함수를 한 번에 적는다.
  * 반환 객체는? --> 현재 없음
+ * 이 객체가 단일 인스턴스를 가지며, 그 자체가 반환값이 되기 때문
  *
  * 2. object
  * 단일 인스턴스를 갖는 익명 객체 생성
@@ -40,4 +41,5 @@ private val networkCallback: ConnectivityManager.NetworkCallback = object : Conn
  * object는 익명 객체를 생성하여 단일 인스턴스를 만들거나 싱글톤 구현하는 데 사용됨.
  *
  * - 뭐든 미루지 않기 !
+ *
  */
