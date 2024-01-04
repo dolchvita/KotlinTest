@@ -3,8 +3,8 @@ package com.snd.kotlintest.playground
 
 fun main() {
 
-    val a = General("민수", 183)
-    println(a == General("민수", 183))
+    val a = General("민수", 182)
+    println(a == General("민수", 182))
     println(a.hashCode())
     println(a)
     println("---------------------")

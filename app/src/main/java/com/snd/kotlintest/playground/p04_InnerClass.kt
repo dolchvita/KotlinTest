@@ -32,17 +32,19 @@ class Outer{
         fun introduce(){
             println("Nested Class")
         }
-    }	/* ./Nested */
+    }
 
 
     inner class Inner{
         var text = "Inner Class"
 
         fun introduceInner(){
+            // 자체 text 참조
             println(text)
         }
 
         fun introduceOuter(){
+            // Outer의 text 참조
             println(this@Outer.text)
         }
     }	/* ./Inner */
